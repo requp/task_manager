@@ -26,7 +26,10 @@ class Task:
             priority: str,
             status: str = "Не выполнена"
     ):
-        self.id = id if id else self._get_new_id()
+        if id is not None:
+            self.id = id
+        else:
+            self.id = self._get_new_id()
         self.title = title
         self.description = description
         self.category = category
