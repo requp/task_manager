@@ -15,7 +15,7 @@
 Сначала клонируйте репозиторий на ваш компьютер:
 
 ```bash
-git clone https://github.com/requp/TaskManager.git
+git clone https://https://github.com/requp/task_manager.git
 ```
 
 ## Запуск приложения
@@ -28,7 +28,7 @@ python3 --version
 
 2. Перейдите в каталог приложения:
 ```bash
-cd путь\к\вашему\репозиторию\TaskManager
+cd путь\к\вашему\репозиторию\task_manager
 ```
 
 3. Перейдите в каталог приложения:
